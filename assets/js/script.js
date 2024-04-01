@@ -22,4 +22,10 @@ $(document).ready(function() {
             'background': 'green'
         })
     });
+
+    $(".iconob").on("click", function () {
+        $(this).css({
+            'background': 'green'
+        })
+    });
 });
