@@ -1,19 +1,19 @@
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-$(document).ready(function() {
-    $(".navbar-nav a").on('click', function(event) {
+$(document).ready(function () {
+    $(".navbar-nav a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 800, function () {
                 window.location.hash = hash;
             });
         }
     });
-    $(".card img").hover(function(){
+    $(".card img").hover(function () {
         $(this).next(".card-body").toggle();
     });
 
@@ -23,7 +23,7 @@ $(document).ready(function() {
         })
     });
 
-    $(".iconoa").hover(function(){
+    $(".iconoa").hover(function () {
         $(this).css({
             'background': 'red'
         })
@@ -34,4 +34,11 @@ $(document).ready(function() {
             'background': 'green'
         })
     });
+
+    $(".iconob").hover(function () {
+        $(this).css({
+            'background': 'purple'
+        })
+    });;
+
 });
