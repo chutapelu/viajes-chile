@@ -1,0 +1,92 @@
+body,
+* {
+    font-family: "Nanum Gothic", sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    background: none;
+}
+
+header {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 60px;
+    width: auto;
+    height: auto;
+}
+
+
+h4 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+
+}
+
+#columnas {
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    font-size: 23px;
+
+
+}
+
+.iconoa {
+    text-align: center;
+    background-color: #2d8999;
+}
+
+.iconob {
+    text-align: center;
+    background-color: #2d8999;
+}
+
+#carros {
+    margin-bottom: 60px;
+}
+
+.card {
+    background-color: #2d8999;
+    color: white;
+    margin: 0 20px;
+
+}
+
+.card-group {
+    border: 1px black;
+}
+
+#formulario {
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: #2d8999;
+}
+
+footer {
+    background-color: #2d8999;
+}
+
+
+
+@media (max-width: 576px) {
+    #columnas {
+        display: none !important;
+    }
+}
