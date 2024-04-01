@@ -16,4 +16,10 @@ $(document).ready(function() {
     $(".card img").hover(function(){
         $(this).next(".card-body").toggle();
     });
+
+    $(".iconoa").on("click", function () {
+        $(this).css({
+            'background': 'green'
+        })
+    });
 });
