@@ -23,6 +23,12 @@ $(document).ready(function() {
         })
     });
 
+    $(".iconoa").hover(function(){
+        $(this).css({
+            'background': 'red'
+        })
+    });
+
     $(".iconob").on("click", function () {
         $(this).css({
             'background': 'green'
